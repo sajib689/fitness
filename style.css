@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+}
+.menu-item {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+  padding-right: 10px;
+  margin-right: 175px;
+}
+li a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
+.menu-title {
+  font-size: 47px;
+  font-style: italic;
+  margin-top: -62px;
+  letter-spacing: 0.4rem;
+  overflow: hidden;
+  border-right: 0.1em solid #ff8d8d;
+  white-space: nowrap;
+  animation: demo-typewriter 3s steps(30, end), demo-cursor 1s step-end infinite;
+}
+@keyframes demo-typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 30%;
+  }
+}
+
+@keyframes demo-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #ff8d8d;
+  }
+}
+.main-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.banner-text {
+  color: white;
+  justify-content: center;
+  margin-top: 20vh;
+  margin: 130px 0px;
+  padding: 0;
+  margin-left: 4%;
+  margin-bottom: 12px;
+}
+
+.banner img {
+  width: 100%;
+  margin-left: 10%;
+}
+
+.title {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.description-one {
+  color: rgb(219, 19, 19);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: -41px;
+}
+
+.description {
+  font-size: 22px;
+  font-weight: 700;
+  margin: -52px 10px 0px 0px;
+  color: rgb(196, 205, 205);
+}
+.button {
+  padding: 20px 30px;
+  color: white;
+  background-color: red;
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.learn-button {
+  margin-top: 40px;
+}
+.button:hover {
+  background-color: #0000ff;
+}
+.heading {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.main-part {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.img-one {
+  width: 70px;
+}
+.all-div {
+  width: 270px;
+  margin: 20px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 4px grey;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.all-div:hover {
+  transition: 0.5s;
+  border-radius: 10px;
+  margin-top: -10px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+/* css end here sction two */
+/* css 3rd section is start */
+.third-section {
+  margin-top: 150px;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+.image-container {
+  display: flex;
+}
+.image-three img {
+  padding: 20px;
+  height: 500px;
+  margin-top: 50px;
+  transform: skewY(-15deg);
+}
+.image-four img {
+  padding: 20px;
+  height: 500px;
+  margin-top: 50px;
+  transform: skewY(-15deg);
+}
+.text-area {
+  display: flex;
+}
+.about-us {
+  color: white;
+}
